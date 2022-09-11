@@ -1,9 +1,9 @@
 ## Ignorar los archivos temporales de Visual Studio y resultados de
-## construcciones.
+## compilaciones.
 ##
 ## Basado en https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# Resultados de construcciones
+# Resultados de compilaciones
 [Bb]in/
 [Oo]bj/
 
