@@ -1,0 +1,11 @@
+## Ignorar los archivos temporales de Visual Studio y resultados de
+## construcciones.
+##
+## Basado en https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Resultados de construcciones
+[Bb]in/
+[Oo]bj/
+
+# Directorio de caché/opciones de Visual Studio
+.vs/
