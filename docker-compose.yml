@@ -1,0 +1,12 @@
+services:
+  dotnet:
+    container_name: dotnet
+    hostname: dotnet
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./
+        target: /root/dotnet/
