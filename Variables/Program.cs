@@ -15,6 +15,9 @@
             float menorPrecision = 20.95F;
             int contador = 15;
 
+            // Constantes
+            const double numAureo = 1.618;
+
             // C# permite declarar variables para ser definidas por el
             // compilador, pero usa los tipos primitivos de variables por
             // defecto.
@@ -29,6 +32,7 @@
             Console.WriteLine( mayorPrecision );
             Console.WriteLine( menorPrecision );
             Console.WriteLine( contador );        
+            Console.WriteLine( numAureo );
             Console.WriteLine( num );
             Console.WriteLine( pi );
 
